@@ -7,7 +7,7 @@ Documentation for my projects Lumen / TalkMate / Scrapper
 - Install NodeJS on your computer
 - Git clone the project on your folder
 - Now do ```npm i``` to install all packages used
-- Run ```npm run dev``` to launch the website
+- You can do ```npm run dev``` to run locally on your machine OR ```npx vite serve --host``` to start the app on your local network
 
 
 ## Author
