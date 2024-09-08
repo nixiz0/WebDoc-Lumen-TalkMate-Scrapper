@@ -5,6 +5,19 @@ import '../../index.css'
 import Navbar from '../../components/navbar/Navbar.jsx'
 import Footer from '../../components/footer/Footer.jsx'
 import ScrapperNavbar from '../../components/navbar/ScrapperNavbar.jsx'
+import menu from '../../0-ressources/scrapper_doc/menu.png'
+import menu_chrome_exe from '../../0-ressources/scrapper_doc/menu_chrome_exe.png'
+import clean_upload_csv from '../../0-ressources/scrapper_doc/clean_upload_csv.png'
+import clean_illu_csv from '../../0-ressources/scrapper_doc/clean_illu_csv.png'
+import clean_columns from '../../0-ressources/scrapper_doc/clean_columns.png'
+import clean_rows from '../../0-ressources/scrapper_doc/clean_rows.png'
+import clean_missing_val from '../../0-ressources/scrapper_doc/clean_missing_val.png'
+import clean_transfo from '../../0-ressources/scrapper_doc/clean_transfo.png'
+import scrap_url from '../../0-ressources/scrapper_doc/scrap_url.png'
+import scrap_choose from '../../0-ressources/scrapper_doc/scrap_choose.png'
+import scrap_page from '../../0-ressources/scrapper_doc/scrap_page.png'
+import scrap_max_page from '../../0-ressources/scrapper_doc/scrap_max_page.png'
+import scrap_all from '../../0-ressources/scrapper_doc/scrap_all.png'
 
 
 function Scrapper() {
@@ -24,7 +37,7 @@ function Scrapper() {
               Bienvenue sur votre scrapper sur la page Menu
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/menu.png" class="w-auto rounded-lg" alt="lang config"/>
+              <img src={menu} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -36,7 +49,7 @@ function Scrapper() {
               Cette étape est importante car elle permet de scrapper des sites web dynamiques fait en React, ViteJS etc
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/menu_chrome_exe.png" class="w-auto rounded-lg" alt="lang config"/>
+              <img src={menu_chrome_exe} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
           </section>
           <section className="mb-20 max-w-4xl" id="clean_data">
@@ -46,7 +59,7 @@ function Scrapper() {
               réalisé votre scrapping)
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/clean_upload_csv.png" class="w-60 rounded-lg" alt="lang config"/>
+              <img src={clean_upload_csv} class="w-60 rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -54,7 +67,7 @@ function Scrapper() {
               montrera ce que contient le fichier CSV
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/clean_illu_csv.png" class="w-auto rounded-lg" alt="lang config"/>
+              <img src={clean_illu_csv} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -67,24 +80,24 @@ function Scrapper() {
               Vous allez pouvoir renommer des lignes/colonnes, supprimer-ajouter des lignes/colonnes :
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/clean_columns.png" class="w-auto rounded-lg" alt="lang config"/>
+              <img src={clean_columns} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/clean_rows.png" class="w-auto rounded-lg" alt="lang config"/>
+              <img src={clean_rows} class="w-auto rounded-lg" alt="lang config"/>
             </div>
             <br />
             <p className="text-lg">
               Supprimer, remplacer les valeurs manquantes : 
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/clean_missing_val.png" class="w-auto rounded-lg" alt="lang config"/>
+              <img src={clean_missing_val} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
               Effectuer des transformations dans vos colonnes/lignes :
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/clean_transfo.png" class="w-auto rounded-lg" alt="lang config"/>
+              <img src={clean_transfo} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -98,7 +111,7 @@ function Scrapper() {
               Dans la barre latérale vous allez devoir mettre l'url du site que vous souhaitez scrapper
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/scrap_url.png" class="w-auto rounded-lg" alt="lang config"/>
+              <img src={scrap_url} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -109,14 +122,14 @@ function Scrapper() {
               scrapper une page précise alors dans l'url collez la page que vous voulez scrapper
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/scrap_choose.png" class="w-auto rounded-lg" alt="lang config"/>
+              <img src={scrap_choose} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
                 Si vous souhaitez scrapper que la page vous allez pouvoir choisir les balises que vous souhaitez scrapper
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/scrap_page.png" class="w-96 rounded-lg" alt="lang config"/>
+              <img src={scrap_page} class="w-96 rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -124,14 +137,14 @@ function Scrapper() {
               vous souhaitez scrapper, ce qui permet de creuser dans le site un petit peu sans tout scrapper en entier
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/scrap_max_page.png" class="w-auto rounded-lg" alt="lang config"/>
+              <img src={scrap_max_page} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
               Comme pour le scrap d'une page pour tout un site vous allez pouvoir sélectionner les balises que vous souhaitez scrapper
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/scrapper_doc/scrap_all.png" class="w-96 rounded-lg" alt="lang config"/>
+              <img src={scrap_all} class="w-96 rounded-lg" alt="lang config"/>
             </div>  
           </section>
         </div>

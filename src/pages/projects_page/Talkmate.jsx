@@ -5,6 +5,23 @@ import '../../index.css'
 import Navbar from '../../components/navbar/Navbar.jsx'
 import Footer from '../../components/footer/Footer.jsx'
 import TalkMateNavbar from '../../components/navbar/TalkMateNavbar.jsx'
+import micro_config from '../../0-ressources/talkmate_doc/micro_config.png'
+import voice_config from '../../0-ressources/talkmate_doc/voice_config.png'
+import btn_dev_only from '../../0-ressources/talkmate_doc/btn_dev_only.png'
+import models_config from '../../0-ressources/talkmate_doc/models_config.png'
+import history from '../../0-ressources/talkmate_doc/history.png'
+import discussion_mode from '../../0-ressources/talkmate_doc/discussion_mode.png'
+import summarize_upload from '../../0-ressources/talkmate_doc/summarize_upload.png'
+import summarize_extract_txt from '../../0-ressources/talkmate_doc/summarize_extract_txt.png'
+import btn_summarize from '../../0-ressources/talkmate_doc/btn_summarize.png'
+import audio_mode from '../../0-ressources/talkmate_doc/audio_mode.png'
+import qa_document_upload from '../../0-ressources/talkmate_doc/qa_document_upload.png'
+import qa_document_models from '../../0-ressources/talkmate_doc/qa_document_models.png'
+import qa_history_discu_mode from '../../0-ressources/talkmate_doc/qa_history_discu_mode.png'
+import question_models_config from '../../0-ressources/talkmate_doc/question_models_config.png'
+import question_profils from '../../0-ressources/talkmate_doc/question_profils.png'
+import question_history from '../../0-ressources/talkmate_doc/question_history.png'
+import btn_history from '../../0-ressources/talkmate_doc/btn_history.png'
 
 
 function Talkmate() {
@@ -24,7 +41,7 @@ function Talkmate() {
                 Configuration du Microphone à utiliser dans l'application durant la session (permet de parler à votre assistant par la suite)
               </p>
               <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/micro_config.png" class="w-auto rounded-lg" alt="lang config"/>
+                <img src={micro_config} class="w-auto rounded-lg" alt="lang config"/>
               </div>  
               <br />
               <p className="text-lg">
@@ -33,7 +50,7 @@ function Talkmate() {
                 d'autres voix du narrateur windows dans votre application
               </p>
               <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/voice_config.png" class="w-44 rounded-lg" alt="lang config"/>
+                <img src={voice_config} class="w-44 rounded-lg" alt="lang config"/>
               </div>  
               <br />
               <p className="text-lg">
@@ -43,7 +60,7 @@ function Talkmate() {
                 modèle sur Ollama, pour chaque bouton, vous devez suivre les étapes dans le terminal
               </p>
               <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/btn_dev_only.png" class="w-auto rounded-lg" alt="lang config"/>
+                <img src={btn_dev_only} class="w-auto rounded-lg" alt="lang config"/>
               </div>  
           </section>
           <section className="mb-20 max-w-4xl" id="assistant">
@@ -52,7 +69,7 @@ function Talkmate() {
               Vous pouvez choisir un de vos modèles que vous avez au préalable téléchargé sur Ollama et ou modifié en local 
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/models_config.png" class="w-auto rounded-lg" alt="lang config"/>
+                <img src={models_config} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -60,7 +77,7 @@ function Talkmate() {
               en cliquant sur le bouton Nouveau 
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/history.png" class="w-44 rounded-lg" alt="lang config"/>
+                <img src={history} class="w-44 rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -69,7 +86,7 @@ function Talkmate() {
               la réponse de la voix synthétique une fois et à chaque fois il faut réappuyer pour reparler avec le modèle
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/discussion_mode.png" class="w-auto rounded-lg" alt="lang config"/>
+                <img src={discussion_mode} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
           </section>
           <section className="mb-20 max-w-4xl" id="summarize">
@@ -78,7 +95,7 @@ function Talkmate() {
               Vous pouvez Upload un fichier pour le résumer
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/summarize_upload.png" class="w-72 rounded-lg" alt="lang config"/>
+                <img src={summarize_upload} class="w-72 rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -86,7 +103,7 @@ function Talkmate() {
               résumer le mieux possible votre document 
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/summarize_extract_txt.png" class="w-64 rounded-lg" alt="lang config"/>
+                <img src={summarize_extract_txt} class="w-64 rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -100,14 +117,14 @@ function Talkmate() {
               </ul>
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/btn_summarize.png" class="w-54 rounded-lg" alt="lang config"/>
+                <img src={btn_summarize} class="w-54 rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
               Vous avez votre Mode Audio qui permet de parler via la voix synthétique pour vous lire le texte qui vous a été résumé 
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/audio_mode.png" class="w-auto rounded-lg" alt="lang config"/>
+                <img src={audio_mode} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
           </section>
           <section className="mb-20 max-w-4xl" id="qa_document">
@@ -116,7 +133,7 @@ function Talkmate() {
               Vous pouvez Upload un fichier qui permet de parler par la suite via un LLM sur votre document upload
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/qa_document_upload.png" class="w-72 rounded-lg" alt="lang config"/>
+                <img src={qa_document_upload} class="w-72 rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -124,7 +141,7 @@ function Talkmate() {
               que vous souhaitez
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/qa_document_models.png" class="w-auto rounded-lg" alt="lang config"/>
+                <img src={qa_document_models} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -134,7 +151,7 @@ function Talkmate() {
               question sur le document fourni
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/qa_history_discu_mode.png" class="w-auto rounded-lg" alt="lang config"/>
+                <img src={qa_history_discu_mode} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
           </section>
           <section className="mb-20 max-w-4xl" id="question">
@@ -143,7 +160,7 @@ function Talkmate() {
               Vous devez choisir votre modèle LLM et votre modèle d'embedding en local comme pour la page QA Document
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/question_models_config.png" class="w-auto rounded-lg" alt="lang config"/>
+                <img src={question_models_config} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -151,7 +168,7 @@ function Talkmate() {
               nouveau profil et en appuyant sur le bouton créer 
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/question_profils.png" class="w-auto rounded-lg" alt="lang config"/>
+                <img src={question_profils} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -159,7 +176,7 @@ function Talkmate() {
               et qui va mettre le nom de votre profil entre [] pour vous indiquer le profil que vous avez utilisé durant la conversation
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/question_history.png" class="w-auto rounded-lg" alt="lang config"/>
+                <img src={question_history} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
           </section>
           <section className="mb-20 max-w-4xl" id="others">
@@ -170,7 +187,7 @@ function Talkmate() {
               CSV et enfin supprimer la conversation
             </p>
             <div class="flex pt-3 justify-center">
-                <img src="./src/0-ressources/talkmate_doc/btn_history.png" class="w-auto rounded-lg" alt="lang config"/>
+                <img src={btn_history} class="w-auto rounded-lg" alt="lang config"/>
             </div>  
           </section>
         </div>

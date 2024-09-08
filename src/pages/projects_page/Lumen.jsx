@@ -5,6 +5,15 @@ import '../../index.css'
 import Navbar from '../../components/navbar/Navbar.jsx'
 import Footer from '../../components/footer/Footer.jsx'
 import LumenNavbar from '../../components/navbar/LumenNavbar.jsx'
+import lang_config from '../../0-ressources/lumen_doc/lang_config.png'
+import micro_config from '../../0-ressources/lumen_doc/micro_config.png'
+import voice_config from '../../0-ressources/lumen_doc/voice_config.png'
+import txt_trigger from '../../0-ressources/lumen_doc/txt_trigger.png'
+import txt_trigger_app from '../../0-ressources/lumen_doc/txt_trigger_app.png'
+import micro_sensitivity from '../../0-ressources/lumen_doc/micro_sensitivity.png'
+import cam_config from '../../0-ressources/lumen_doc/cam_config.png'
+import models_params from '../../0-ressources/lumen_doc/models_params.png'
+import models_page_config from '../../0-ressources/lumen_doc/models_page_config.png'
 
 
 function Lumen() {
@@ -24,7 +33,7 @@ function Lumen() {
               Dans la page menu vous pouvez choisir le langage qui changera automatiquement pour toute l'application
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/lumen_doc/lang_config.png" class="w-56 rounded-lg" alt="lang config"/>
+              <img src={lang_config} class="w-56 rounded-lg" alt="lang config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -33,7 +42,7 @@ function Lumen() {
               sur votre ordinateur je vous conseille de configurer votre micro car l'index peut varier). 
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/lumen_doc/micro_config.png" class="w-full rounded-lg" alt="micro config"/>
+              <img src={micro_config} class="w-full rounded-lg" alt="micro config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -42,7 +51,7 @@ function Lumen() {
               (pour obtenir plus de voix regardez dans le ReadMe dans la section Synthetic Voice du projet pour savoir comment faire)
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/lumen_doc/voice_config.png" class="w-full rounded-lg" alt="voice config"/>
+              <img src={voice_config} class="w-full rounded-lg" alt="voice config"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -57,7 +66,7 @@ function Lumen() {
               sinon il ne sera jamais déclencher car le speech to text n'écrira pas de la même façon qu'attendu.
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/lumen_doc/txt_trigger.png" class="w-full rounded-lg" alt="text trigger"/>
+              <img src={txt_trigger} class="w-full rounded-lg" alt="text trigger"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -73,7 +82,7 @@ function Lumen() {
               vous collez cela dans votre chemin du fichier dans l'app.
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/lumen_doc/txt_trigger_app.png" class="w-full rounded-lg" alt="text trigger app"/>
+              <img src={txt_trigger_app} class="w-full rounded-lg" alt="text trigger app"/>
             </div>  
             <br />
             <p className="text-lg">
@@ -83,7 +92,7 @@ function Lumen() {
               plus le micro sera sensible aux sons faibles et donc vous pourrez parler plus doucement.
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/lumen_doc/micro_sensitivity.png" class="w-full rounded-lg" alt="micro sensitivity"/>
+              <img src={micro_sensitivity} class="w-full rounded-lg" alt="micro sensitivity"/>
             </div> 
             <br />
             <p className="text-lg">
@@ -92,7 +101,7 @@ function Lumen() {
               souhaitez utiliser pour le mode vision.
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/lumen_doc/cam_config.png" class="w-full rounded-lg" alt="cam config"/>
+              <img src={cam_config} class="w-full rounded-lg" alt="cam config"/>
             </div> 
             <br />
             <p className="text-lg">
@@ -100,7 +109,7 @@ function Lumen() {
               modifier, faire du prompt engineering etc de vos modèles d'Ollama en local.
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/lumen_doc/models_params.png" class="w-full rounded-lg" alt="models params"/>
+              <img src={models_params} class="w-full rounded-lg" alt="models params"/>
             </div> 
             <br />
             <p className="text-lg">
@@ -127,7 +136,7 @@ function Lumen() {
               vous entoure en prenant des screenshots de votre ordinateur et ou du monde réel via votre caméra.
             </p>
             <div class="flex pt-3 justify-center">
-              <img src="./src/0-ressources/lumen_doc/models_page_config.png" class="w-52 rounded-lg" alt="models page config"/>
+              <img src={models_page_config} class="w-52 rounded-lg" alt="models page config"/>
             </div>
             <br />
           </section>

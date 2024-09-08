@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../../index.css';
 
+import logo_projects from '../../0-ressources/logo-projects.png'
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +18,7 @@ function Navbar() {
     <nav className="fixed w-full p-4 bg-blue-800 z-20">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <img src="./src/0-ressources/logo-projects.png" alt="Logo" className="h-8 w-8 mr-2" />
+          <img src={logo_projects} alt="Logo" className="h-8 w-8 mr-2" />
           <div className="text-white text-2xl font-bold">
             <Link smooth to="/" className="text-white p-2 rounded text-shadow-lg">Projets</Link>
           </div>

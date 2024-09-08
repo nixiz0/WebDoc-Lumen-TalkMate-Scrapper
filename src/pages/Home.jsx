@@ -4,6 +4,9 @@ import '../index.css'
 
 import Navbar from '../components/navbar/Navbar.jsx'
 import Footer from '../components/footer/Footer.jsx'
+import lumen_minia from '../0-ressources/lumen-minia.png'
+import talkmate_minia from '../0-ressources/talkmate-minia.png'
+import scrapper_minia from '../0-ressources/scrapper-minia.png'
 
 
 function Home() {
@@ -23,19 +26,19 @@ function Home() {
         <div className="flex flex-wrap justify-center mt-8">
           <div className="m-4 text-center">
             <a href="https://www.youtube.com/watch?v=KB6hKrypfqk&list=PL0AcJq6MCzvPKqqVnr2Q7nHkqnuEtTH7Q" target="_blank" rel="noopener noreferrer">
-              <img src="src/0-ressources/lumen-minia.png" alt="Lumen" className="shadow-lg w-[270px] hover:scale-95 transition-transform duration-300" style={{ boxShadow: '0 0px 5px 0 #22d3ee' }} />
+              <img src={lumen_minia} alt="Lumen" className="shadow-lg w-[270px] hover:scale-95 transition-transform duration-300" style={{ boxShadow: '0 0px 5px 0 #22d3ee' }} />
               <h3 className="mt-2 text-lg text-cyan-400 font-medium text-shadow-lg">Lumen</h3>
             </a>
           </div>
           <div className="m-4 text-center">
             <a href="https://www.youtube.com/watch?v=5sxedN1hFOc&list=PL0AcJq6MCzvP5oQIfMy938zf82opTlsFz" target="_blank" rel="noopener noreferrer">
-              <img src="src/0-ressources/talkmate-minia.png" alt="Talkmate" className="shadow-lg w-[270px] hover:scale-95 transition-transform duration-300" style={{ boxShadow: '0 0px 5px 0 #22d3ee' }} />
+              <img src={talkmate_minia} alt="Talkmate" className="shadow-lg w-[270px] hover:scale-95 transition-transform duration-300" style={{ boxShadow: '0 0px 5px 0 #22d3ee' }} />
               <h3 className="mt-2 text-lg text-cyan-400 font-medium text-shadow-lg">TalkMate</h3>
             </a>
           </div>
           <div className="m-4 text-center">
             <a href="https://youtu.be/BeyrVX9fOQg?si=JWIKBENSvwM9XOnC" target="_blank" rel="noopener noreferrer">
-              <img src="src/0-ressources/scrapper-minia.png" alt="Scrapper" className="shadow-lg w-[270px] hover:scale-95 transition-transform duration-300" style={{ boxShadow: '0 0px 5px 0 #22d3ee' }} />
+              <img src={scrapper_minia} alt="Scrapper" className="shadow-lg w-[270px] hover:scale-95 transition-transform duration-300" style={{ boxShadow: '0 0px 5px 0 #22d3ee' }} />
               <h3 className="mt-2 text-lg text-cyan-400 font-medium text-shadow-lg">Scrapper</h3>
             </a>
           </div>
